@@ -1,0 +1,1 @@
+{"ts":1358057221557,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"TESTS = test/*.js\n\ntest:\n\t@NODE_ENV=test ./node_modules/.bin/mocha \\\n\t\t\t--require should \\\n\t\t\t--reporter list \\\n\t\t\t--slow 20 \\\n\t\t\t--growl \\\n\t\t\t$(TESTS)\n.PHONY: test"]],"start1":0,"start2":0,"length1":0,"length2":164}]],"length":164}
